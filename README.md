@@ -5,7 +5,7 @@ For Linux, it also gives it MPRIS support. For Windows, it doesn't do much speci
 
 The way this works is that the Electron wrapper loads up https://xebrine.com with an "electron" parameter, which is basically the "on" switch for the web app to know that it's running in Electron. This allows the webapp to use the amenities of the wrapper.
 
-To download, see: https://xebrine.com/i/download. To build it yourself, do:
+To download, see: https://xebrine.com/about/install. To build it yourself, do:
 
 ```
 cd electron
