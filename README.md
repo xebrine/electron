@@ -1,5 +1,5 @@
 # Xebrine electron wrapper
-This is a rudimental Electron wrapper of Xebrine for Linux and Windows, which gives Xebrine a better file scanner for both platforms.
+This is a rudimental Electron wrapper of [Xebrine](https://github.com/exerinity/xebrine) for Linux and Windows, which gives Xebrine a better file scanner for both platforms.
 
 For Linux, it also gives it MPRIS support. For Windows, it doesn't do much special.
 
