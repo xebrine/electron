@@ -4,15 +4,7 @@ import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const shell = join(dirname(fileURLToPath(import.meta.url)), '..');
-const transparentSource = join(
-  shell,
-  '..',
-  'public',
-  'i',
-  'xebrine',
-  'icon',
-  'xebrine_512_transparent.png'
-);
+const transparentSource = join(shell, 'assets', 'xebrine_512_transparent.png');
 const out = join(shell, 'build');
 
 if (!existsSync(transparentSource)) {

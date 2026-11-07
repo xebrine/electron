@@ -61,11 +61,11 @@ function resolve_icon() {
       ? [
           path.join(__dirname, "build/icon.ico"),
           path.join(__dirname, "build/icon.png"),
-          path.join(__dirname, "../public/i/xebrine/icon/xebrine_512_transparent.png"),
+          path.join(__dirname, "assets/xebrine_512_transparent.png"),
         ]
       : [
           path.join(process.resourcesPath, "xebrine_512_transparent.png"),
-          path.join(__dirname, "../public/i/xebrine/icon/xebrine_512_transparent.png"),
+          path.join(__dirname, "assets/xebrine_512_transparent.png"),
           path.join(__dirname, "build/icon.png"),
         ];
 
